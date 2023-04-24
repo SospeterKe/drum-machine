@@ -1,0 +1,17 @@
+.drum-machine{
+    width: 660px;
+    height: 320px;
+    border: 5px solid var(--button);
+    background-color: var(--drumbackground);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.logo{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}

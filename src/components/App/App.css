@@ -1,0 +1,14 @@
+:root {
+    --mainbackground: #0A4D68;
+    --drumbackground: #088395;
+    --borderline: #05BFDB;
+    --button: #00FFCA;
+}
+
+.App{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mainbackground);
+}

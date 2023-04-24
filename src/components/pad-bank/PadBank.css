@@ -1,0 +1,19 @@
+.drumPads {
+    box-sizing: border-box;
+    display: grid;
+    width: 50%;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    border: 2px solid black;
+    padding: 25px;
+    height: 100%;
+}
+
+.drum-pad {
+    box-shadow: 3px 3px 5px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.drum-pad:hover{
+    background-color: grey;
+}

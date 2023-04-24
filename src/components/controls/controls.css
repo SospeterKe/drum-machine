@@ -1,0 +1,22 @@
+.control-tab {
+    text-align: center;
+    border: 1px solid black;
+    padding: 0 50px;
+}
+.switch {
+    border: 1px solid black;
+    margin: 40px 0;
+    padding: 30px;;
+}
+.switch-button{
+    width: 20px;
+    height: 10px;
+    background-color: black ;
+    margin: auto;
+}
+.whitespace{
+    width: 80px;
+    height: 30px;
+    background-color: aliceblue;
+    margin: 20px auto;
+}
