@@ -2,21 +2,38 @@
     text-align: center;
     border: 1px solid black;
     padding: 0 50px;
+    box-sizing: border-box;
 }
 .switch {
-    border: 1px solid black;
-    margin: 40px 0;
-    padding: 30px;;
+    margin: 20px 0;
+    padding: 20px;
+}
+.switch p{
+    margin: 0;
 }
 .switch-button{
-    width: 20px;
-    height: 10px;
+    width: 53px;
+    height: 20px;
     background-color: black ;
     margin: auto;
+    border: 3px solid black;
+}
+.switch-slider{
+    background-color: blue;
+    height: 20px;
+    width: 25px;
+    float: right;
 }
 .whitespace{
-    width: 80px;
-    height: 30px;
+    width: 200px;
+    height: 60px;
     background-color: aliceblue;
-    margin: 20px auto;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 60px;
+}
+input[type=range]{
+    height: 26px;
+    margin: 15px 0;
+    width: 100%;
 }
