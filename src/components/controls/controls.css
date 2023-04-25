@@ -1,8 +1,16 @@
 .control-tab {
     text-align: center;
-    border: 1px solid black;
     padding: 0 50px;
     box-sizing: border-box;
+}
+@media (width <= 600px) {
+    .control-tab{
+        height: 45%;
+        width: 99%;
+    }
+    .whitespace{
+        width: 90% !important;
+    }
 }
 .switch {
     margin: 20px 0;
