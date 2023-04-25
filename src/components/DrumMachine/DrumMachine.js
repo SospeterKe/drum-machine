@@ -1,4 +1,3 @@
-import React from "react";
 import './DrumMachine.css'
 import Controls from "../controls/Controls";
 import {FaFireAlt} from 'react-icons/fa';
@@ -17,6 +16,7 @@ export default function DrumMachine() {
     }
 
     const [isOn, setIsOn] = useState(false);
+
     const handleClick = () => {
         setIsOn(!isOn);
     }
@@ -35,7 +35,7 @@ export default function DrumMachine() {
                 <div className="drum-pad" onClick={() => {handleButtonClick("RP4_KICK_1", "X")}}><audio src="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3" className="clip" id="X"></audio>X</div>
                 <div className="drum-pad" onClick={() => {handleButtonClick("Cev_H2", "C")}}><audio src="https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3" className="clip" id="C"></audio>C</div>
             </div>
-            ) : 'OFF'}
+            ) : <div className="offscreen">OFF</div>}
             
 
             <FaFireAlt className="logo"/>
