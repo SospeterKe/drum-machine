@@ -1,7 +1,7 @@
 .drum-machine{
     width: 660px;
     height: 320px;
-    border: 5px solid var(--button);
+    border: 5px solid var(--borderline);
     background-color: var(--drumbackground);
     position: relative;
     display: flex;
@@ -21,7 +21,7 @@
     width: 50%;
     gap: 10px;
     grid-template-columns: auto auto auto;
-    border: 2px solid black;
+    border: 1px solid black;
     padding: 25px;
     height: 100%;
 }
