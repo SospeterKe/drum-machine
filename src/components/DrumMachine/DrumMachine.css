@@ -23,13 +23,11 @@
     grid-template-columns: auto auto auto;
     border: 1px solid black;
     padding: 25px;
-    height: 100%;
 }
 
 .drum-pad {
     box-shadow: 3px 3px 5px;
     background-color: aliceblue;
-    text-align: center;
     border-radius: 5px;
 }
 .drum-pad:hover{
